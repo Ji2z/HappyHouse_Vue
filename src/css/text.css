@@ -1,0 +1,48 @@
+@import "./font.css";
+a:hover {
+  text-decoration: none;
+  color: #00796b;
+}
+.text-header-title {
+  font-family: NanumBB;
+  color: #004d40;
+  text-shadow: 2px 2px 2px #b0bec5;
+  font-size: 2.5vw;
+}
+.text-header-title:hover {
+  color: #00796b;
+  text-shadow: 2px 2px 2px #b2dfdb;
+  text-decoration: none;
+  font-size: 2.5vw;
+}
+.text-title {
+  font-family: NanumB;
+  color: #00695c;
+  font-size: 1.3vw;
+}
+.text-color-light {
+  color: #26a69a;
+  font-family: NanumR;
+}
+.text-color-dark {
+  color: #00796b;
+  font-family: NanumR;
+}
+.text-default {
+  color: #424242;
+  font-family: NanumR;
+}
+.text-small {
+  font-size: 0.8vw;
+}
+.text-large {
+  font-size: 1.1vw;
+}
+.text-bold {
+  font-family: NanumB !important;
+}
+
+* {
+  font-family: NanumR;
+  font-size: 1vw;
+}
